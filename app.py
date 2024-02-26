@@ -230,5 +230,8 @@ def download_csv():
         return "Method Not Allowed"
 
 
+if __name__ == '__main__':
+    app.run(debug=True)
+
 
 
