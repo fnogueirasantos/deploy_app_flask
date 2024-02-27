@@ -1,0 +1,9 @@
+version: 1
+services:
+  web:
+    build:
+      steps:
+        - name: Install Python dependencies
+          command: pip install -r requirements.txt
+    run:
+      command: python app.py
